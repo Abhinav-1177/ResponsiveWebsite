@@ -1,0 +1,37 @@
+@media screen and (max-width:700px) {
+    .navbar{
+        flex-direction:column ;
+        /* height: 4em; */
+    }
+    .navlist{
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    .navlist li{
+        padding: 2%;
+    }
+    .rightnav{
+        display: none;
+        width: 100%;
+        flex-direction: column;
+    }
+    .menubar{
+        position: absolute;
+        right: 10%;
+        display: block;
+    }
+    .sectionInfo{
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+        margin: 10px;
+    }
+    .sectionInfo .info{
+        width: 100%;
+    }
+    .sectionInfo .thumbnail{
+        width: 50%;
+        align-self: center;
+    }
+}

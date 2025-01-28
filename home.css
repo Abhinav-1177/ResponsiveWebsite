@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    border: 2px solid black;
+    display: flex;
+    position: sticky;
+    top: 0;
+
+}
+
+.logo {
+    width: 20%;
+    /* padding: 1%; */
+}
+
+.logo img {
+    /* border: 3px solid white; */
+    border-radius: 50%;
+    width: 45%;
+}
+
+.navlist {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.navlist li {
+    list-style: none;
+}
+
+
+.navlist a {
+    text-decoration: none;
+    color: white;
+
+}
+.navlist a:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 20%;    
+}
+.rightnav {
+    width: 50%;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightnav input {
+    /* width: 30%; */
+    border: none;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+
+}
+
+.menubar {
+    display: none;
+    background: white;
+    width: 7%;
+    border: 2px solid white;
+
+}
+
+.menubar img {
+    height: 100%;
+    width: 100%;
+}
+
+.bg {
+    background: rgba(0, 0, 0, 0.7) url(https://cdn.pixabay.com/photo/2016/03/27/07/08/man-1282232_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.firstSec {
+    height: 100%;
+}
+
+.boxMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10vw 10vw 0 10vw;
+}
+
+.firstHalf {
+    display: inline-blockblock;
+}
+
+.secondHalf {
+    width: 40%;
+}
+
+.secondHalf img {
+    width: 40vw;
+}
+
+.bigText {
+    font-size: 40px;
+}
+
+.smallText {
+    font-size: 18px;
+}
+
+.btn {
+    margin: 20px 10px;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.searchbtn {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px 15px;
+}
+
+.searchbtn:hover {
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    border-color: rgb(167, 167, 167);
+}
+
+/* second section information */
+
+.sectionInfo {
+    margin: 10% 10%;
+    display: flex;
+}
+
+.thumbnail {
+    margin: 0 20px;
+    width: 30%;
+}
+
+.thumbnail img {
+    width: 100%;
+    border-radius: 9%;
+}
+
+.info {
+    width: 70%;
+}
+
+/* Contact Us */
+.contactUs {
+    padding: 20px 0;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contactUs input,
+textarea {
+    margin: 1%;
+    padding: 1%;
+    align-self: center;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+}
+
+.contactUs input[type=submit] {
+    background-color: rgb(52, 255, 52);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    width: 10%;
+}
